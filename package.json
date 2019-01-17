@@ -1,0 +1,26 @@
+{
+  "name": "scss-boilerplate",
+  "version": "0.1.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass ./scss/main.scss ./css/style.css -w",
+    "watch:min": "node-sass ./scss/main.scss ./css/style.min.css -w --output-style compressed",
+    "prefx": "postcss --use autoprefixer -b \"last 10 versions\" ./css/style.css -o ./css/style.css --no-map",
+    "prefx:min": "postcss --use autoprefixer -b \"last 10 versions\" ./css/style.min.css -o ./css/style.min.css --no-map",
+    "build:compile": "node-sass ./scss/main.scss ./css/style.css && node-sass ./scss/main.scss ./css/style.min.css --output-style compressed",
+    "build:autoprefix": "npm run prefx && npm run prefx:min",
+    "build": "run-s build:**"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.3.1",
+    "concurrently": "^4.0.1",
+    "cssnano": "^4.1.7",
+    "node-sass": "^4.9.3",
+    "npm-run-all": "^4.1.3",
+    "postcss": "^7.0.5",
+    "postcss-cli": "^6.0.1"
+  }
+}

@@ -1,0 +1,38 @@
+/**Primary Color*/
+$cl-p: #003e6c;
+// Automatsko mijenjanje gore definisane boje
+$cl-p-d: darken($cl-p, 10%);
+$cl-p-l: lighten($cl-p, 10%);
+
+/**Secondary Color*/
+$cl-s: #ee272e;
+// Automatsko mijenjanje gore definisane boje
+$cl-s-d: darken($cl-s, 10%);
+$cl-s-l: lighten($cl-s, 10%);
+/**Tertiary Color*/
+$cl-t: #ff5a19;
+// Automatsko mijenjanje gore definisane boje
+$cl-t-d: darken($cl-t, 10%);
+$cl-t-l: lighten($cl-t, 10%);
+
+/**Util Colors**/
+
+// Light Grey
+$cl-lg-1: #eee;
+$cl-lg-2: #ccc;
+$cl-lg-3: #999;
+
+// Medium Grey
+$cl-mg-1: #777;
+$cl-mg-2: #666;
+$cl-mg-3: #555;
+
+// Dark Grey
+$cl-dg-1: #333;
+$cl-dg-2: #222;
+$cl-dg-3: #111;
+
+$font: #434343;
+
+$white: #fff;
+$black: #000;
