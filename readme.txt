@@ -8,6 +8,8 @@ Kompajliranje scss fajlova nakon izmjene boja:
 
 2. Nakon sto je instalacija neophodnih package-a zavrsena, u terminalu/cmd pokrenuti scriptu "npm run build"
 
+3. Komanda "npm run watch" pokrece watcher koji ce da izvrsi compile scss-a
+
 (neophodno je imati node.js i node package manager(npm). Dovoljno je sa zvanicnog sajta instalirati node.js, npm je included u default instalaciji)
 ______________________________________________________
 
@@ -18,7 +20,7 @@ _mixins.scss
 
 1. Mixins za media queries
 
-usage: "@include sm" - media query max-width 576px
+usage: "@include sm" - media query min-width 576px
 usage custom: "@include rwd(*zeljena width*)" 
 
 ................................................
