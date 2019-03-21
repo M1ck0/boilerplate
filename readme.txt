@@ -149,7 +149,7 @@ Margins:
 .mb - margin-bottom
 .ml - margin-left
 
-format klase: .mt-br pixela (.mt-5) *relative units koristeni
+format klase: .mt-br pixela (.mt-5 - mt-50) *relative units koristeni
 
 Padding:
 
@@ -158,10 +158,10 @@ Padding:
 .pb - padding-bottom
 .pl - padding-left
 .pa - padding all
-.ptb - padding-top, padding-bottom
-.prl - padding-left, padding-right
+.py - padding-top, padding-bottom
+.px - padding-left, padding-right
 
-format klase: .pt-br pixela (.pt-5) *relative units koristeni
+format klase: .pt-br pixela (.pt-5 - .pt-50) *relative units koristeni
 
 *relative units koristeni
 
