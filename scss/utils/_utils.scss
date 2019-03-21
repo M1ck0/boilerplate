@@ -1,210 +1,210 @@
 html {
-  font-size: 62.5%;
-  overflow-x: hidden;
-  box-sizing: border-box;
-  -ms-overflow-style: scrollbar;
+    font-size: 62.5%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
 
-  @include sm {
-    font-size: 50%;
-  }
+    @include sm {
+        font-size: 50%;
+    }
 }
 
 
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
 
 ::-moz-selection {
-  color: $white;
-  background: $cl-p;
+    color: $white;
+    background: $cl-p;
 }
 
 ::selection {
-  color: $white;
-  background: $cl-p;
+    color: $white;
+    background: $cl-p;
 }
 
 
 
 body {
-  font-weight: 400;
-  line-height: 1.7;
-  color: $font;
-  overflow-x: hidden;
-  position: relative;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $font;
+    overflow-x: hidden;
+    position: relative;
 }
 
 body.noScroll {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .clearfix {
-  clear: both;
-  overflow: auto;
+    clear: both;
+    overflow: auto;
 }
 
 .clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 // POSITION
 
-.p-r {
-  position: relative;
+.relative {
+    position: relative;
 }
 
-.p-a {
-  position: absolute;
+.absolute {
+    position: absolute;
 }
 
-.p-f {
-  position: fixed;
+.fixed {
+    position: fixed;
 }
 
 .top-0 {
-  top: 0;
+    top: 0;
 }
 
 .top-10 {
-  top: 10%;
+    top: 10%;
 }
 
 .top-20 {
-  top: 20%;
+    top: 20%;
 }
 
 .top-30 {
-  top: 30%;
+    top: 30%;
 }
 
 .top-40 {
-  top: 40%;
+    top: 40%;
 }
 
 .top-50 {
-  top: 50%;
+    top: 50%;
 }
 
 .bottom-10 {
-  bottom: 10%;
+    bottom: 10%;
 }
 
 .bottom-20 {
-  bottom: 20%;
+    bottom: 20%;
 }
 
 .bottom-30 {
-  bottom: 30%;
+    bottom: 30%;
 }
 
 .bottom-40 {
-  bottom: 40%;
+    bottom: 40%;
 }
 
 .bottom-50 {
-  bottom: 50%
+    bottom: 50%
 }
 
 .left-0 {
-  left: 0;
+    left: 0;
 }
 
 .left-50 {
-  left: 50%;
+    left: 50%;
 }
 
 .right-0 {
-  right: 0;
+    right: 0;
 }
 
 .right-50 {
-  right: 50%;
+    right: 50%;
 }
 
 // TEXT ALIGN
 
 .text-left {
-  text-align: left;
+    text-align: left;
 }
 
 .text-center {
-  text-align: center;
+    text-align: center;
 }
 
 .text-right {
-  text-align: right;
+    text-align: right;
 }
 
 //CENTER ELEMENT HORIZONTALY
 
 .center-margin {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .center-r-h {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .center-a-h {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .center-f-h {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 //CENTER ELEMENT VERTICALLY
 
 .center-r-v {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .center-a-v {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .center-f-v {
-  position: fixed;
-  top: 50%;
-  transform: translateY(-50%);
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 //CENTER ELEMENT BOTH
 .center-r-b {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .center-a-b {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .center-f-b {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 //MARGINS
@@ -214,168 +214,168 @@ body.noScroll {
 //top
 
 .mt-5 {
-  margin-top: .5rem;
+    margin-top: .5rem;
 }
 
 .mt-10 {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 .mt-15 {
-  margin-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .mt-20 {
-  margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 .mt-25 {
-  margin-top: 2.5rem;
+    margin-top: 2.5rem;
 }
 
 .mt-30 {
-  margin-top: 3rem;
+    margin-top: 3rem;
 }
 
 .mt-35 {
-  margin-top: 3.5rem;
+    margin-top: 3.5rem;
 }
 
 .mt-40 {
-  margin-top: 4rem;
+    margin-top: 4rem;
 }
 
 .mt-45 {
-  margin-top: 4.5rem;
+    margin-top: 4.5rem;
 }
 
 .mt-50 {
-  margin-top: 5rem;
+    margin-top: 5rem;
 }
 
 //right
 .mr-5 {
-  margin-right: .5rem;
+    margin-right: .5rem;
 }
 
 .mr-10 {
-  margin-right: 1rem;
+    margin-right: 1rem;
 }
 
 .mr-15 {
-  margin-right: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .mr-20 {
-  margin-right: 2rem;
+    margin-right: 2rem;
 }
 
 .mr-25 {
-  margin-right: 2.5rem;
+    margin-right: 2.5rem;
 }
 
 .mr-30 {
-  margin-right: 3rem;
+    margin-right: 3rem;
 }
 
 .mr-35 {
-  margin-right: 3.5rem;
+    margin-right: 3.5rem;
 }
 
 .mr-40 {
-  margin-right: 4rem;
+    margin-right: 4rem;
 }
 
 .mr-45 {
-  margin-right: 4.5rem;
+    margin-right: 4.5rem;
 }
 
 .mr-50 {
-  margin-right: 5rem;
+    margin-right: 5rem;
 }
 
 //botom
 
 .mb-5 {
-  margin-bottom: .5rem;
+    margin-bottom: .5rem;
 }
 
 .mb-10 {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .mb-15 {
-  margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .mb-20 {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .mb-25 {
-  margin-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .mb-30 {
-  margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 .mb-35 {
-  margin-bottom: 3.5rem;
+    margin-bottom: 3.5rem;
 }
 
 .mb-40 {
-  margin-bottom: 4rem;
+    margin-bottom: 4rem;
 }
 
 .mb-45 {
-  margin-bottom: 4.5rem;
+    margin-bottom: 4.5rem;
 }
 
 .mb-50 {
-  margin-bottom: 5rem;
+    margin-bottom: 5rem;
 }
 
 //left
 
 .ml-5 {
-  margin-left: .5rem;
+    margin-left: .5rem;
 }
 
 .ml-10 {
-  margin-left: 1rem;
+    margin-left: 1rem;
 }
 
 .ml-15 {
-  margin-left: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 .ml-20 {
-  margin-left: 2rem;
+    margin-left: 2rem;
 }
 
 .ml-25 {
-  margin-left: 2.5rem;
+    margin-left: 2.5rem;
 }
 
 .ml-30 {
-  margin-left: 3rem;
+    margin-left: 3rem;
 }
 
 .ml-35 {
-  margin-left: 3.5rem;
+    margin-left: 3.5rem;
 }
 
 .ml-40 {
-  margin-left: 4rem;
+    margin-left: 4rem;
 }
 
 .ml-45 {
-  margin-left: 4.5rem;
+    margin-left: 4.5rem;
 }
 
 .ml-50 {
-  margin-left: 5rem;
+    margin-left: 5rem;
 }
 
 //Padding
@@ -385,400 +385,400 @@ body.noScroll {
 //top
 
 .pt-5 {
-  padding-top: .5rem;
+    padding-top: .5rem;
 }
 
 .pt-10 {
-  padding-top: 1rem;
+    padding-top: 1rem;
 }
 
 .pt-15 {
-  padding-top: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .pt-20 {
-  padding-top: 2rem;
+    padding-top: 2rem;
 }
 
 .pt-25 {
-  padding-top: 2.5rem;
+    padding-top: 2.5rem;
 }
 
 .pt-30 {
-  padding-top: 3rem;
+    padding-top: 3rem;
 }
 
 .pt-35 {
-  padding-top: 3.5rem;
+    padding-top: 3.5rem;
 }
 
 .pt-40 {
-  padding-top: 4rem;
+    padding-top: 4rem;
 }
 
 .pt-45 {
-  padding-top: 4.5rem;
+    padding-top: 4.5rem;
 }
 
 .pt-50 {
-  padding-top: 5rem;
+    padding-top: 5rem;
 }
 
 //right
 .pr-5 {
-  padding-right: .5rem;
+    padding-right: .5rem;
 }
 
 .pr-10 {
-  padding-right: 1rem;
+    padding-right: 1rem;
 }
 
 .pr-15 {
-  padding-right: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .pr-20 {
-  padding-right: 2rem;
+    padding-right: 2rem;
 }
 
 .pr-25 {
-  padding-right: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 .pr-30 {
-  padding-right: 3rem;
+    padding-right: 3rem;
 }
 
 .pr-35 {
-  padding-right: 3.5rem;
+    padding-right: 3.5rem;
 }
 
 .pr-40 {
-  padding-right: 4rem;
+    padding-right: 4rem;
 }
 
 .pr-45 {
-  padding-right: 4.5rem;
+    padding-right: 4.5rem;
 }
 
 .pr-50 {
-  padding-right: 5rem;
+    padding-right: 5rem;
 }
 
 //botom
 
 .pb-5 {
-  padding-bottom: .5rem;
+    padding-bottom: .5rem;
 }
 
 .pb-10 {
-  padding-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .pb-15 {
-  padding-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .pb-20 {
-  padding-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .pb-25 {
-  padding-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .pb-30 {
-  padding-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
 .pb-35 {
-  padding-bottom: 3.5rem;
+    padding-bottom: 3.5rem;
 }
 
 .pb-40 {
-  padding-bottom: 4rem;
+    padding-bottom: 4rem;
 }
 
 .pb-45 {
-  padding-bottom: 4.5rem;
+    padding-bottom: 4.5rem;
 }
 
 .pb-50 {
-  padding-bottom: 5rem;
+    padding-bottom: 5rem;
 }
 
 //left
 
 .pl-5 {
-  padding-left: .5rem;
+    padding-left: .5rem;
 }
 
 .pl-10 {
-  padding-left: 1rem;
+    padding-left: 1rem;
 }
 
 .pl-15 {
-  padding-left: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 .pl-20 {
-  padding-left: 2rem;
+    padding-left: 2rem;
 }
 
 .pl-25 {
-  padding-left: 2.5rem;
+    padding-left: 2.5rem;
 }
 
 .pl-30 {
-  padding-left: 3rem;
+    padding-left: 3rem;
 }
 
 .pl-35 {
-  padding-left: 3.5rem;
+    padding-left: 3.5rem;
 }
 
 .pl-40 {
-  padding-left: 4rem;
+    padding-left: 4rem;
 }
 
 .pl-45 {
-  padding-left: 4.5rem;
+    padding-left: 4.5rem;
 }
 
 .pl-50 {
-  padding-left: 5rem;
+    padding-left: 5rem;
 }
 
 //All
 
 .pa-5 {
-  padding: .5rem;
+    padding: .5rem;
 }
 
 .pa-10 {
-  padding: 1rem;
+    padding: 1rem;
 }
 
 .pa-15 {
-  padding: 1.5rem;
+    padding: 1.5rem;
 }
 
 .pa-20 {
-  padding: 2rem;
+    padding: 2rem;
 }
 
 .pa-25 {
-  padding: 2.5rem;
+    padding: 2.5rem;
 }
 
 .pa-30 {
-  padding: 3rem;
+    padding: 3rem;
 }
 
 .pa-35 {
-  padding: 3.5rem;
+    padding: 3.5rem;
 }
 
 .pa-40 {
-  padding: 4rem;
+    padding: 4rem;
 }
 
 .pa-45 {
-  padding: 4.5rem;
+    padding: 4.5rem;
 }
 
 .pa-50 {
-  padding: 5rem;
+    padding: 5rem;
 }
 
 //Top Bottom
 
 .ptb-5 {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 .ptb-10 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .ptb-15 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .ptb-20 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .ptb-25 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .ptb-30 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .ptb-35 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
 }
 
 .ptb-40 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .ptb-45 {
-  padding-top: 4.5rem;
-  padding-bottom: 4.5rem;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
 }
 
 .ptb-50 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 //Right Left
 
 .prl-5 {
-  padding-left: .5rem;
-  padding-right: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 .prl-10 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .prl-15 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .prl-20 {
-  padding-left: 2rem;
-  padding-right: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .prl-25 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 .prl-30 {
-  padding-left: 3rem;
-  padding-right: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .prl-35 {
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
 }
 
 .prl-40 {
-  padding-left: 4rem;
-  padding-right: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .prl-45 {
-  padding-left: 4.5rem;
-  padding-right: 4.5rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
 }
 
 .prl-50 {
-  padding-left: 5rem;
-  padding-right: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 //BORDER RADIUS
 
 .br-r-1 {
-  border-radius: 1px;
+    border-radius: 1px;
 }
 
 .br-r-2 {
-  border-radius: 2px;
+    border-radius: 2px;
 }
 
 .br-r-2 {
-  border-radius: 2px;
+    border-radius: 2px;
 }
 
 .br-r-3 {
-  border-radius: 3px;
+    border-radius: 3px;
 }
 
 .br-r-4 {
-  border-radius: 4px;
+    border-radius: 4px;
 }
 
 .br-r-5 {
-  border-radius: 5px;
+    border-radius: 5px;
 }
 
 .br-r-6 {
-  border-radius: 6px;
+    border-radius: 6px;
 }
 
 .br-r-7 {
-  border-radius: 7px;
+    border-radius: 7px;
 }
 
 .br-r-8 {
-  border-radius: 8px;
+    border-radius: 8px;
 }
 
 .br-r-9 {
-  border-radius: 9px;
+    border-radius: 9px;
 }
 
 .br-r-10 {
-  border-radius: 10px;
+    border-radius: 10px;
 }
 
 .br-r-11 {
-  border-radius: 11px;
+    border-radius: 11px;
 }
 
 .br-r-12 {
-  border-radius: 12px;
+    border-radius: 12px;
 }
 
 .br-r-13 {
-  border-radius: 13px;
+    border-radius: 13px;
 }
 
 .br-r-14 {
-  border-radius: 14px;
+    border-radius: 14px;
 }
 
 .br-r-15 {
-  border-radius: 15px;
+    border-radius: 15px;
 }
 
 .br-r-16 {
-  border-radius: 16px;
+    border-radius: 16px;
 }
 
 .br-r-17 {
-  border-radius: 17px;
+    border-radius: 17px;
 }
 
 .br-r-18 {
-  border-radius: 18px;
+    border-radius: 18px;
 }
 
 .br-r-19 {
-  border-radius: 19px;
+    border-radius: 19px;
 }
 
 .br-r-20 {
-  border-radius: 20px;
+    border-radius: 20px;
 }
 
 //BUTTON
@@ -788,8 +788,8 @@ body.noScroll {
 .btn:hover,
 .btn:focus,
 .btn:active {
-  outline: none;
-  text-decoration: none;
+    outline: none;
+    text-decoration: none;
 }
 
 .btn-primary:link,
@@ -797,11 +797,11 @@ body.noScroll {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background-color: $cl-p;
+    background-color: $cl-p;
 }
 
 .btn-primary:hover {
-  background-color: $cl-p-d;
+    background-color: $cl-p-d;
 }
 
 .btn-secondary:link,
@@ -809,11 +809,11 @@ body.noScroll {
 .btn-secondary:hover,
 .btn-secondary:focus,
 .btn-secondary:active {
-  background-color: $cl-s;
+    background-color: $cl-s;
 }
 
 .btn-secondary:hover {
-  background-color: $cl-s-d;
+    background-color: $cl-s-d;
 }
 
 
@@ -822,77 +822,77 @@ body.noScroll {
 .btn-tertiary:hover,
 .btn-tertiary:focus,
 .btn-tertiary:active {
-  background-color: $cl-t;
+    background-color: $cl-t;
 }
 
 .btn-tertiary:hover {
-  background-color: $cl-t-d;
+    background-color: $cl-t-d;
 }
 
 ////TRANSITIONS
 
 .transition-1 {
-  transition: all .1s;
+    transition: all .1s;
 }
 
 .transition-2 {
-  transition: all .2s;
+    transition: all .2s;
 }
 
 .transition-3 {
-  transition: all .3s;
+    transition: all .3s;
 }
 
 .transition-4 {
-  transition: all .4s;
+    transition: all .4s;
 }
 
 .transition-5 {
-  transition: all .5s;
+    transition: all .5s;
 }
 
 .transition-6 {
-  transition: all .6s;
+    transition: all .6s;
 }
 
 .transition-7 {
-  transition: all .7s;
+    transition: all .7s;
 }
 
 .transition-8 {
-  transition: all .8s;
+    transition: all .8s;
 }
 
 .transition-9 {
-  transition: all .9s;
+    transition: all .9s;
 }
 
 .transition-10 {
-  transition: all 1s;
+    transition: all 1s;
 }
 
 //BACKGROUND
 
 .bg-primary {
-  background-color: $cl-p;
+    background-color: $cl-p;
 }
 
 .bg-secondary {
-  background-color: $cl-s;
+    background-color: $cl-s;
 }
 
 .bg-tertiary {
-  background-color: $cl-s;
+    background-color: $cl-s;
 }
 
 .bg-lg-1 {
-  background-color: $cl-lg-1;
+    background-color: $cl-lg-1;
 }
 
 .bg-lg-2 {
-  background-color: $cl-lg-2;
+    background-color: $cl-lg-2;
 }
 
 .bg-lg-3 {
-  background-color: $cl-lg-3;
+    background-color: $cl-lg-3;
 }

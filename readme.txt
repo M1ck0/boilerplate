@@ -94,11 +94,11 @@ _utils.scss
 
 Pozicija Elemenata:
 
-.p-r - position:relative; //Promijeni ovo u relative.. isto za ove ispod.. nalazi se u _utils.scss
+.relative - position:relative;
 
-.p-a - position: absolute;
+.absolute - position: absolute;
 
-.p-f - position: fixed;
+.fixed - position: fixed;
 
 .top-0 - top:0;
 .top-50 - top:50%;
